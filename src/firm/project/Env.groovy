@@ -7,8 +7,8 @@ class Enviroment {
         // Static Enviroments Array
         def staticEnviroments = [
             git: [
-                branch: "master",
-                url: "https://bitbucket.org/firm/project.git",
+                branch: "main",
+                url: "https://github.com/rohitbhoite/flutter_quiz",
                 credentialsId: "jenkins-bitbucket-cloud-credential-id"
             ],
             artifact: [
